@@ -13,7 +13,7 @@ import React, { Component } from 'react';
 import { WebView } from 'react-native-webview';
 
 
-const MyWebComponent = ({navigation, route}) => {
+const Preview = ({navigation, route}) => {
   const address = route.params.address
   
   // const person = personData[address];
@@ -22,4 +22,4 @@ const MyWebComponent = ({navigation, route}) => {
     );
   };
 
-export default MyWebComponent;
+export default Preview;
